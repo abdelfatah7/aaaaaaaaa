@@ -1,0 +1,24 @@
+✊️## RUN AIRCRAFTS & DEONES 
+
+                                   Vehicle	                                                                                      Command
+Quadrotor	                                                                                                           make px4_sitl gazebo-classic
+Quadrotor with Optical Flow	                                                                                            make px4_sitl gazebo-classic_iris_opt_flow
+Quadrotor with Depth Camera 	                                                                                            make px4_sitl gazebo-classic_iris_depth_camera
+Quadrotor with Depth Camera 	                                                                                            make px4_sitl gazebo-classic_iris_downward_depth_camera
+3DR Solo (Quadrotor)	                                                                                                    make px4_sitl gazebo-classic_solo
+Typhoon H480 (Hexrotor) (with video streaming)	                                                                     make px4_sitl gazebo-classic_typhoon_h480
+Standard Plane	                                                                                                            make px4_sitl gazebo-classic_plane
+Standard Plane (with catapult launch)	                                                                                     make px4_sitl gazebo-classic_plane_catapult
+Standard VTOL	                                                                                                            make px4_sitl gazebo-classic_standard_vtol
+Tailsitter VTOL	                                                                                                    make px4_sitl gazebo-classic_tailsitter
+Ackerman UGV (Rover)	                                                                                                    make px4_sitl gazebo-classic_rover
+Differential UGV (Rover)	                                                                                            make px4_sitl gazebo-classic_r1_rover
+HippoCampus TUHH (UUV: Unmanned Underwater Vehicle)	                                                                     make px4_sitl gazebo-classic_uuv_hippocampus
+Boat (USV: Unmanned Surface Vehicle)	                                                                                     make px4_sitl gazebo-classic_boat
+Cloudship (Airship)	                                                                                                    make px4_sitl gazebo-classic_cloudship
+
+
+✊️### QGROUND RUN AND DEBPS
+
+chmod +x ./QGroundControl.AppImage
+./QGroundControl.AppImage 
